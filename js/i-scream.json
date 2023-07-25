@@ -36,6 +36,28 @@
         "candy sprinkles"
       ],
       "image": "strawberry-sprinkle.svg"
+    },
+    {
+      "name": "Chinese Chow",
+      "calories": 650,
+      "type": "frozen milk",
+      "ingredients": [
+        "Vanila milk",
+        "milk chocolate dip",
+        "dark chocolate"
+      ],
+      "image": "ice-cream-xtra1.svg"
+    },
+    {
+      "name": "Rajbhog Casata",
+      "calories": 445,
+      "type": "frozen yogurt",
+      "ingredients": [
+        "Rabdi",
+        "cashew",
+        "almonds"
+      ],
+      "image": "ice-cream-xtra2.svg"
     }
   ]
 }
