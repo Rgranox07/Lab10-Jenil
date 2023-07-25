@@ -15,6 +15,7 @@
 	<section>
 
 	</section>
+	
 	<script>
 		/* STEP 2: Bind the HEADER and the SECTION elements above to variables */
 		const header = document.querySelector('header');
@@ -55,7 +56,7 @@
 			for (let i = 0; i < topFlavors.length; i++) {
 				// STEP 10d: build HTML elements for the content
 				const article = document.createElement('article');
-				const h2 = document.createElement('h2');
+				const h3 = document.createElement('h3');
 				const img = document.createElement('img');
 				const p1 = document.createElement('p');
 				const p2 = document.createElement('p');
@@ -63,7 +64,7 @@
 				// STEP 10e: Set the textContent property for each of the above elements (except the UL), based on the JSON content
 				img.setAttribute('src', 'https://rgranox07.github.io/Lab10-Jenil/images/' + topFlavors[i].image);
 				img.setAttribute('alt', topFlavors[i].name);
-				h2.textContent = topFlavors[i].name;
+				h3.textContent = topFlavors[i].name;
 				p1.textContent = 'Calories: ' + topFlavors[i].calories;
 				p2.textContent = 'Type: ' + topFlavors[i].type;
 				// STEP 10f: Build a loop for the ingredients array in the JSON
@@ -78,7 +79,7 @@
 
 				// STEP 10h: Append each complete ARTICLE element to the SECTION element
 				article.appendChild(img);
-				article.appendChild(h2);
+				article.appendChild(h3);
 				article.appendChild(p1);
 				article.appendChild(p2);
 				article.appendChild(list);
